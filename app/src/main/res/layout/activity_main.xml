@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin ="3dp"
+        android:onClick="onClick"
         android:text="좋아하는 연예인 이야기가 나왔을 때"
         />
 
@@ -39,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="목마를 때"
         />
 
@@ -47,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin ="3dp"
+        android:onClick="onClick"
         android:text="배고플 때"
         />
 
@@ -55,6 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onClick"
         android:text="그건 아닌 거 같을 때"
         />
 
