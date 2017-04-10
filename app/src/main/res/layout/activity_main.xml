@@ -20,7 +20,7 @@
     <ImageView
         android:id="@+id/friend_visual"
         android:layout_gravity="center"
-        android:src="@drawable/15965913_1722843844711459_1948842711917692504_n"
+        android:src="@drawable/p4"
         android:layout_width="200dp"
         android:layout_height="200dp"
         />
