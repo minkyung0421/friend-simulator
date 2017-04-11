@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:onClick="onClick"
-        android:text="대답할 때"
+        android:text="부를 때"
         />
 
     <Button

@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()){
             case R.id.button1:
                 Log.d(TAG,"button1 click");
-                Toast.makeText(this, "냐~", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "자냐?", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button2:
                 Log.d(TAG,"button2 click");
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button5:
                 Log.d(TAG,"button5 click");
-                Toast.makeText(this, "안돼안돼", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "아니야", Toast.LENGTH_SHORT).show();
                 break;
             default:
                 Log.d(TAG,"error click");
