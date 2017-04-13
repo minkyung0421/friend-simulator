@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="onClick"
+    android:orientation="vertical"
     tools:context="kr.hs.emirim.aza923.friendsimulator.choihyerim.MainActivity">
 
     <TextView
@@ -14,18 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="30sp"
         android:onClick="onClick"
         android:text="최혜림 시뮬레이터"
-        />
+        android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/friend_visual"
-        android:layout_gravity="center"
-        android:src="@drawable/p4"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        />
+        android:layout_gravity="center"
+        android:src="@drawable/p4" />
 
 
     <Button
@@ -34,17 +30,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:onClick="onClick"
-        android:text="부를 때"
-        />
+        android:text="부를 때" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin ="3dp"
+        android:layout_margin="3dp"
         android:onClick="onClick"
-        android:text="좋아하는 연예인 이야기가 나왔을 때"
-        />
+        android:text="좋아하는 연예인 이야기가 나왔을 때" />
 
     <Button
         android:id="@+id/button3"
@@ -52,17 +46,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:onClick="onClick"
-        android:text="목마를 때"
-        />
+        android:text="목마를 때" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin ="3dp"
+        android:layout_margin="3dp"
         android:onClick="onClick"
-        android:text="배고플 때"
-        />
+        android:text="배고플 때" />
 
     <Button
         android:id="@+id/button5"
@@ -70,8 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:onClick="onClick"
-        android:text="그건 아닌 거 같을 때"
-        />
+        android:text="그건 아닌 거 같을 때" />
 
 
 </LinearLayout>
